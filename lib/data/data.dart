@@ -47,8 +47,7 @@ List<Project> projectList = [
       link: "https://github.com/dcaayushd/Doctify"),
   Project(
       name: "Expensify",
-      description:
-          "Expensify is one stop solution to help you manage Family expenses in one place!",
+      description: "Expensify helps you manage Family expenses in one place",
       link: "https://github.com/dcaayushd/Expensify"),
   Project(
       name: "Travelify",
