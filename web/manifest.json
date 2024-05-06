@@ -1,6 +1,6 @@
 {
-    "name": "portfolio",
-    "short_name": "portfolio",
+    "name": "portfolio_app",
+    "short_name": "portfolio_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

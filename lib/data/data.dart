@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/models/project_model.dart';
+import 'package:portfolio_app/models/project_model.dart';
 
 //Update with colors of your choice for dp background gradient
 Color kGradient1 = Colors.purple;
@@ -37,7 +37,7 @@ With a combination of technical expertise and soft skills, I am well-equipped to
 
 String location = "Lalitpur, Nepal";
 String website = "aayushdangi.com.np";
-String portfolio = "dcaayushd.github.io";
+String portfolio_app = "dcaayushd.github.io";
 String email = "aayushdc1234@gmail.com";
 
 List<Project> projectList = [
@@ -54,7 +54,7 @@ List<Project> projectList = [
       description: "Travelify is a simple app to see the place!",
       link: "https://github.com/dcaayushd/Travelify"),
   Project(
-      name: "Flutter Portfolio",
-      description: "A template for Portfolio",
+      name: "Flutter portfolio_app",
+      description: "A template for portfolio_app",
       link: "https://github.com/dcaayushd/portfolify")
 ];

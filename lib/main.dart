@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/constants/constants.dart';
-import 'package:portfolio/screens/home_screen.dart';
+import 'package:portfolio_app/constants/constants.dart';
+import 'package:portfolio_app/screens/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

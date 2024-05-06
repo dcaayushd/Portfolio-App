@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/constants/constants.dart';
-import 'package:portfolio/data/data.dart';
-import 'package:portfolio/screens/widgets/project_widget.dart';
-import 'package:portfolio/utils/extensions.dart';
+import 'package:portfolio_app/constants/constants.dart';
+import 'package:portfolio_app/data/data.dart';
+import 'package:portfolio_app/screens/widgets/project_widget.dart';
+import 'package:portfolio_app/utils/extensions.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -208,7 +208,7 @@ class HomeScreen extends StatelessWidget {
                                         height: 10,
                                       ),
                                       Text(
-                                        "Portfolio",
+                                        "portfolio_app",
                                         style: kSubTitleText,
                                       ),
                                       const SizedBox(
@@ -216,7 +216,7 @@ class HomeScreen extends StatelessWidget {
                                       ),
                                       Row(
                                         children: [
-                                          Text(portfolio),
+                                          Text(portfolio_app),
                                           const SizedBox(
                                             width: 5,
                                           ),
@@ -338,7 +338,7 @@ class HomeScreen extends StatelessWidget {
                                           height: 10,
                                         ),
                                         Text(
-                                          "Portfolio",
+                                          "portfolio_app",
                                           style: kSubTitleText,
                                         ),
                                         const SizedBox(
@@ -346,7 +346,7 @@ class HomeScreen extends StatelessWidget {
                                         ),
                                         Row(
                                           children: [
-                                            Text(portfolio),
+                                            Text(portfolio_app),
                                             const SizedBox(
                                               width: 5,
                                             ),
