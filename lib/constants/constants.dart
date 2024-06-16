@@ -26,12 +26,14 @@ TextStyle kSectionTitleText = GoogleFonts.montserrat(
 
 ElevatedButtonThemeData elevatedButtonThemeData = ElevatedButtonThemeData(
   style: ButtonStyle(
-    backgroundColor: MaterialStateColor.resolveWith((states) => kGrey),
-    foregroundColor: MaterialStateColor.resolveWith(
-      (Set<MaterialState> states) {
-        if (states.contains(MaterialState.hovered)) return Colors.black;
-        if (states.contains(MaterialState.focused) ||
-            states.contains(MaterialState.pressed)) return Colors.white;
+    backgroundColor: WidgetStateColor.resolveWith((states) => kGrey),
+    foregroundColor: WidgetStateColor.resolveWith(
+      (Set<WidgetState> states) {
+        if (states.contains(WidgetState.hovered)) return Colors.black;
+        if (states.contains(WidgetState.focused) ||
+            states.contains(WidgetState.pressed)) {
+          return Colors.white;
+        }
         return kGrey; // Defer to the widget's default.
       },
     ),
